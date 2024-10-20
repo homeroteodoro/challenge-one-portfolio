@@ -7,9 +7,9 @@
 
 ###  Projeto desenvolvido como um desafio do projeto ONE Alura - turma 7.
 
-
-### Tenologias utilizadas:
 ---
+### Tenologias utilizadas:
+
 ### HTML
 ### CSS
 ### Javascript
