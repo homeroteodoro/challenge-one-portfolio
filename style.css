@@ -1,0 +1,882 @@
+:root {
+  --cor-de-fundo: #f5f5f5;
+  --cor-de-fundo-menu: #ffffff;
+  --cor-do-link: #000000;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 1.6;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-do-link);
+}
+
+/* ------------------------------ Seção Menu -------------------------------*/
+.cabecalho {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--cor-de-fundo-menu);
+  max-width: 1024px;
+  justify-content: space-between;
+}
+
+.cabecalho__contato__mail {
+  display: none;
+}
+
+.cabecalho__logo {
+  max-width: 80px;
+}
+
+.cabecalho__titulo {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.navegacao__lista {
+  display: flex;
+}
+
+.navegacao__elemento a {
+  font-size: 0.9rem;
+}
+
+.logo__meunome {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cabecalho__titulo {
+  font-size: 18px;
+}
+
+.navegacao__lista {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navegacao__elemento a {
+  font-size: 1.1rem;
+}
+
+/* ------------------------------ Seção Apresentação ------------------------------*/
+
+.apresentacao {
+  display: flex;
+  max-width: 1024px;
+  margin: auto;
+  margin-bottom: 64px;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+
+.apresentacao__conteiner {
+  text-align: left;
+}
+
+.apresentacao__foto {
+  border-radius: 50%;
+  height: 368px;
+}
+
+.apresentacao__titulo {
+  font-size: 3rem;
+  margin: 1rem 0 1rem 0;
+  line-height: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.apresentacao__subtitulo {
+  font-size: 1.5rem;
+  margin-right: 7rem;
+  margin-bottom: 1.5rem;
+}
+
+.redes {
+  display: flex;
+  margin: auto;
+  gap: 2rem;
+  padding: 0;
+}
+
+/* ------------------------------ Seção Sobre mim ----------------------------------*/
+.sobre-mim-box {
+  background-color: #eaf2fe;
+}
+
+.sobre-mim {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 1024px;
+}
+
+.sobre-mim__titulo {
+  width: 751px;
+}
+
+.sobre-mim__texto {
+  width: 970px;
+}
+
+.sobre-mim__assinatura {
+  width: 10rem;
+  margin-bottom: 64px;
+}
+
+/*------------------------------ Seção de Habilidades ------------------------------*/
+
+.habilidades {
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 0;
+  width: 1024px;
+}
+
+.habilidades__titulo {
+  text-align: center;
+}
+
+.habilidades__lista {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.habilidades__elemento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  background-color: #eaf2fe;
+}
+
+.habilidades__icone {
+  width: 80px;
+  height: 80px;
+}
+
+/*------------------------------ Seção de Hobbies --------------------------------*/
+
+.hobbies {
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 0;
+  width: 1024px;
+}
+
+.hobbies__titulo {
+  text-align: center;
+}
+
+.hobbies__lista {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.hobbies__elemento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 140px;
+  background-color: #eaf2fe;
+}
+
+.hobbies__icone {
+  width: 50px;
+}
+
+/*------------------------------ Seção de Formação --------------------------------*/
+
+.formacao {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #eaf2fe;
+  padding: 1.5rem 0 1rem 0rem;
+  margin: 82px 0 32px 0;
+  width: 100%;
+}
+
+.formacao__titulo {
+  text-align: center;
+}
+
+.formacao__lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1024px;
+  margin-bottom: 16px;
+  justify-content: space-around;
+}
+
+.formacao__elemento {
+  width: 368px;
+  height: 286px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.formacao__icone {
+  max-width: 120px;
+}
+
+/*------------------------------ Seção de Projetos --------------------------------*/
+
+.projetos {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-direction: column;
+  margin-bottom: 32px;
+  max-width: 1024px;
+}
+
+.projetos__nome__desc {
+  align-content: center;
+}
+
+.projetos__card {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+  gap: 20px;
+  width: 1024px;
+  margin-bottom: 32px;
+}
+
+.projetos__card__reverse {
+  flex-direction: row-reverse;
+}
+
+.projetos__titulo {
+  text-align: center;
+}
+
+.projetos__conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 0 0;
+}
+
+.projetos__nome {
+  width: 348px;
+}
+
+.projetos__descricao {
+  width: 348px;
+}
+
+.projetos__imagem {
+  width: 650px;
+  align-items: flex-start;
+}
+
+.projetos__button {
+  width: 80px;
+  height: 50px;
+  background-color: #2a7ae4;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.projetos__button:hover {
+  width: 80px;
+  height: 50px;
+  background-color: #5595e9;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+/*------------------------------ Seção de Contato ---------------------------------*/
+
+.contato__container {
+  background-color: #eaf2fe;
+  height: 660px;
+  width: 100%;
+}
+
+.contato {
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1024px;
+  height: 600px;
+}
+
+.contato__imagem {
+  width: 300px;
+  height: 550px;
+  margin: 20px;
+  padding: 0;
+}
+
+.contato__titulo {
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 16px;
+  margin-bottom: 0;
+}
+
+.contato__quer__entrar {
+  font-size: 20px;
+  margin-left: 16px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  gap: 8px;
+  max-width: 704px;
+}
+
+.form__campo {
+  background-color: white;
+  width: 600px;
+  height: 20px;
+  margin-bottom: 32px;
+}
+
+.form__campo > p {
+  background-color: white;
+  margin: 0;
+  height: 16px;
+  padding: 0;
+  font-size: 14px;
+  color: grey;
+}
+
+.form__campo > input {
+  width: 600px;
+  height: 40px;
+  border: none;
+  outline: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.contato__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 16px;
+}
+
+.contato__formulario > input,
+.contato__formulario > textarea {
+  height: 109px;
+  border: none;
+  width: 598px;
+}
+
+.contato__campo--textarea {
+  outline: none;
+  font-size: 18px;
+  resize: none;
+}
+
+.contato__botao {
+  width: 133px;
+  height: 50px;
+  background-color: #2a7ae4;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.contato__botao:hover {
+  width: 133px;
+  height: 50px;
+  background-color: #5595e9;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/* ------------------------------ Responsividade ---------------------------------------*/
+
+/* Telas grandes */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cabecalho {
+    display: flex;
+    max-width: 704px;
+  }
+
+  .navegacao__lista {
+    display: none;
+  }
+
+  .cabecalho__contato__mail {
+    display: flex;
+  }
+
+  .apresentacao {
+    display: flex;
+    max-width: 704px;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+  }
+
+  .apresentacao__conteiner {
+    max-width: 1024px;
+  }
+
+  .apresentacao__foto {
+    max-width: 146px;
+    max-height: 146px;
+  }
+
+  .apresentacao__titulo {
+    font-size: 2rem;
+    margin-right: 16px;
+  }
+
+  .apresentacao__subtitulo {
+    font-size: 1rem;
+    margin-bottom: 16px;
+  }
+
+  .redes {
+    margin-bottom: 32px;
+  }
+
+  .sobre-mim-box {
+    background-color: #eaf2fe;
+  }
+
+  .sobre-mim {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 704px;
+  }
+
+  .sobre-mim__assinatura {
+    width: 10rem;
+    margin-bottom: 16px;
+  }
+
+  .sobre-mim__texto {
+    max-width: 704px;
+  }
+
+  .habilidades {
+    display: flex;
+    flex: 1;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 704px;
+  }
+
+  .habilidades__lista {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .habilidades__elemento {
+    display: flex;
+    align-items: first baseline;
+    justify-content: flex-start;
+    padding: 16px;
+    margin: 16px 0;
+    width: 180px;
+    height: 90px;
+  }
+
+  .habilidades__icone {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .habilidades__nome {
+    margin-top: 5px;
+    text-align: left;
+  }
+
+  .hobbies {
+    display: flex;
+    flex: 1;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 704px;
+  }
+
+  .hobbies__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hobbies__elemento {
+    display: flex;
+    align-items: first baseline;
+    justify-content: flex-start;
+    padding: 16px;
+    width: 180px;
+    height: 90px;
+  }
+
+  .hobbies__icone {
+    margin-top: 20px;
+  }
+
+  .hobbies__nome {
+    margin: 0;
+  }
+
+  .formacao {
+    margin-top: 32px;
+  }
+
+  .formacao__conteiner_lista {
+    display: flex;
+    margin: auto;
+    max-width: 704px;
+  }
+
+  .formacao__lista {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .formacao__elemento {
+    max-width: 180px;
+    max-height: 90px;
+  }
+
+  .formacao__icone {
+    max-width: 40px;
+  }
+
+  .formacao__nome {
+    font-size: 1rem;
+    text-align: left;
+    max-width: 180px;
+    margin: 6px 0 0 0;
+  }
+
+  .formacao__detalhe {
+    font-size: 1rem;
+    margin: 0 0 12px;
+  }
+
+  .projetos__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 704px;
+  }
+
+  .projetos__imagem {
+    width: 100%;
+  }
+
+  .projetos__nome {
+    margin: 0;
+  }
+
+  .projetos__button {
+    margin: 0 0 32px 0;
+  }
+
+  .contato__titulo {
+    margin: 0;
+  }
+
+  .contato__quer__entrar {
+    margin: 0;
+  }
+
+  .contato__formulario {
+    margin: 0;
+  }
+
+  .contato__imagem {
+    display: none;
+  }
+
+  .formulario {
+    max-width: 704px;
+  }
+
+  .form__campo {
+    width: 704px;
+  }
+
+  .form__campo > input {
+    width: 704px;
+  }
+
+  .contato__formulario > textarea {
+    width: 700px;
+  }
+}
+
+/* Smart phones */
+@media (max-width: 767px) {
+  .cabecalho {
+    display: flex;
+    max-width: 328px;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .cabecalho__titulo {
+    font-size: 16px;
+  }
+
+  .navegacao__lista {
+    display: none;
+  }
+
+  .cabecalho__contato__mail {
+    display: none;
+  }
+
+  .apresentacao {
+    max-width: 328px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin: 32px auto 32px auto;
+  }
+
+  .apresentacao__conteiner {
+    max-width: 328px;
+  }
+
+  .apresentacao__foto {
+    width: 98px;
+    height: 98px;
+  }
+
+  .apresentacao__titulo {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+
+  .apresentacao__subtitulo {
+    font-size: 1rem;
+  }
+
+  .redes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sobre-mim {
+    max-width: 328px;
+  }
+
+  .sobre-mim__titulo {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+
+  .sobre-mim__texto {
+    max-width: 328px;
+  }
+
+  .sobre-mim__assinatura {
+    width: 5rem;
+    margin-bottom: 16px;
+  }
+
+  .habilidades {
+    max-width: 328px;
+  }
+
+  .habilidades__lista {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .hobbies {
+    max-width: 328px;
+  }
+
+  .hobbies__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .formacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  .formacao__conteiner__lista {
+    max-width: 328px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formacao__lista {
+    max-width: 328px;
+  }
+
+  .formacao__elemento {
+    height: 118px;
+    max-width: 328px;
+  }
+
+  .formacao__icone {
+    max-height: 80px;
+  }
+
+  .formacao__nome {
+    margin: 0;
+  }
+
+  .formacao__detalhe {
+    margin: 0 0 16px 0;
+  }
+
+  .projetos__conteiner {
+    max-width: 328px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+
+  .projetos__card {
+    max-width: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+  }
+
+  .projetos__container__img {
+    max-width: 328px;
+    margin: 0;
+  }
+
+  .projetos__card {
+    margin-bottom: 32px;
+  }
+
+  .projetos__imagem {
+    max-width: 100%;
+  }
+
+  .projetos__nome {
+    max-width: 328px;
+    margin: 0;
+    line-height: normal;
+  }
+
+  .projetos__descricao {
+    max-width: 328px;
+  }
+
+  .projetos__button {
+    margin: 0;
+  }
+
+  .contato__container {
+    max-width: 100%;
+    margin: auto;
+  }
+  .contato__imagem {
+    display: none;
+  }
+
+  .formulario {
+    max-width: 328px;
+  }
+
+  .contato__titulo,
+  .contato__quer__entrar {
+    max-width: 328px;
+    margin: 0;
+  }
+
+  .contato__formulario {
+    margin: 0;
+    max-width: 328px;
+    gap: 8px;
+  }
+
+  .form__campo {
+    width: 328px;
+    margin: 0 0 50px 0;
+  }
+
+  .form__campo > input {
+    width: 328px;
+  }
+
+  .contato__formulario > textarea {
+    width: 324px;
+  }
+}
